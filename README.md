@@ -21,6 +21,8 @@ Output: true
 ```
 <sub>**Explanation:** 7759 is a prime number.</sub>
 
+---
+
 **#2**:
 ```
 Enter number for checking (floats will be floored): 
@@ -28,6 +30,8 @@ Input: 4
 Output: false
 ```
 <sub>**Explanation:** 4 is a non-prime number.</sub>
+
+---
 
 **#3**:
 ```
@@ -37,6 +41,8 @@ Output: Invalid action - either 0 or a negative number was used, or a non-intege
 ```
 <sub>**Explanation:** 0 is not a valid input, as described in the description.</sub>
 
+---
+
 **#4**:
 ```
 Enter number for checking (floats will be floored): 
@@ -44,6 +50,8 @@ Input: -50
 Output: Invalid action - either 0 or a negative number was used, or a non-integer variable was received as an input
 ```
 <sub>**Explanation:** -50 is not a valid input, as described in the description.</sub>
+
+---
 
 **#5**:
 ```
@@ -53,6 +61,8 @@ Output: Invalid action - either 0 or a negative number was used, or a non-intege
 ```
 <sub>**Explanation:** 0.99 was floored to 0. 0 is not accepted by the program.</sub>
 
+---
+
 **#6**:
 ```
 Enter number for checking (floats will be floored): 
@@ -61,6 +71,8 @@ Output: true
 ```
 <sub>**Explanation:** 5.01 was floored to 5. 5 is a prime number.</sub>
 
+---
+
 **#7**:
 ```
 Enter number for checking (floats will be floored): 
@@ -68,6 +80,8 @@ Input: dsds
 Output: Invalid action - either 0 or a negative number was used, or a non-integer variable was received as an input
 ```
 <sub>**Explanation:** chars are converted to 0. The program does not accept such an input.</sub>
+
+---
 
 **#8 (Catastrophic failure!)**:
 ```
