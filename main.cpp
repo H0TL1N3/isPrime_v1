@@ -10,12 +10,12 @@ bool isPrime(int n) {
     if (n <= 0) { throw 42; }
     // 1 is non-prime by definition
     if (n == 1) { return false; } 
-    // 2 and 3 are prime
-    if (n == 2 || n == 3) { return true; } 
+    // 2 is prime
+    if (n == 2) { return true; } 
     // all even numbers (except 2) are non-prime
     if (n % 2 == 0) { return false; } 
     // main cycle - find any number by which n can be divided
-    for (int i = 5; i < sqrt(n); i += 2) { 
+    for (int i = 3; i <= sqrt(n); i += 2) {
         if (n % i == 0) { return false; }
     }
     // if no such number is found - n is prime
