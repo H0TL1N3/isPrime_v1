@@ -28,7 +28,7 @@ int main()
     // floats are floored because C++, chars are converted to 0 because C++
     std::cout << "Enter number for checking (floats will be floored): ";
     std::cin >> n;
-    // try is used to catch negative and 0 number exceptions
+    // try is used to catch negative and 0 number exceptions, as well as char inputs
     try {
         isPrime(n) ? std::cout << "true" : std::cout << "false"; 
     }
